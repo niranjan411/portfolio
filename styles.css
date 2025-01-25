@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+header{
+    border-radius: 45px;
+    font-size: larger;
+}
+.Contactlink{
+    font-size: medium;
+    border-radius: 21px;
+    line-height: 1.5;
+    border-width: 0.0001px;
+    border-color: #dee2e6;
+    color: #2997ff;
+}
+#home{
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.info{
+    display: flex
+;
+    height: 66vh;
+    padding-top: 110px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 17px;
+}
+.hey{
+    font-size: 41px;
+    padding-left: 2px;
+    line-height: 2rem;
+}
+.name{
+    font-size: 58px;
+    letter-spacing: -3px;
+    line-height: 1;
+    font-weight: 900;
+}
+.profession{
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 3px;
+}
+.animation{
+    height: auto;
+    width: 86vh;
+    overflow: hidden;
+}
